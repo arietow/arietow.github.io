@@ -1,13 +1,11 @@
 
-/*Variables*/
-$headline-font:'Permanent Marker', cursive;
-$neon-pink:#df02e2;
-
-
 body{
-  background-color:#000;
-  font-size:16px;
-  color:#fff;
+  background-color:$background-color;
+  font:{
+    size:$base-font-size;
+    weight:$base-font-weight;
+    color:$white;
+  }
   margin:auto;
   text-align:center;
 }
@@ -38,6 +36,7 @@ p{
   font:{
     family: 'Bitter', serif;
     size:1.25em;
+    color:$white;
   }
 }
 div.headline{
